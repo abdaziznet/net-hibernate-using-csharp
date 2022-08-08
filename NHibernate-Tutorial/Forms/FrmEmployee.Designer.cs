@@ -151,6 +151,7 @@
             this.btnUpdate.TabIndex = 10;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnInsert
             // 
@@ -191,6 +192,7 @@
             this.dgViewEmployee.RowTemplate.Height = 28;
             this.dgViewEmployee.Size = new System.Drawing.Size(767, 260);
             this.dgViewEmployee.TabIndex = 0;
+            this.dgViewEmployee.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgViewEmployee_CellContentClick);
             // 
             // FrmEmployee
             // 
